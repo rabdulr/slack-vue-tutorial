@@ -37,7 +37,7 @@ export default {
            this.server = response.data
         })
         .catch((err) => {
-          this.error = { title: 'Couldn\t connect to Server', message: 'There may be a problem with your connection. Please check and try again.', reason: err.reason}
+          this.error = { title: 'Couldn\'t connect to Server', message: 'There may be a problem with your connection. Please check and try again.', reason: err.reason}
         })
     }
   }
